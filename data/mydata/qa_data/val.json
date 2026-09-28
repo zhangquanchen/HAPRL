@@ -1,0 +1,1032 @@
+[
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_54.jpg"
+    ],
+    "doc_id": "visual_probe_easy_54",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the man with the crossbody bag in the lower right corner of the image wearing on his wrist?",
+    "solution": "watch"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_91.jpg"
+    ],
+    "doc_id": "visual_probe_medium_91",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first word on the left red poster?",
+    "solution": "Nasir"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_187.jpg"
+    ],
+    "doc_id": "visual_probe_medium_187",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is there on the door of the house on the farthest right?",
+    "solution": "couplet"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_100.jpg"
+    ],
+    "doc_id": "visual_probe_hard_100",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the pattern inside the rounded square?",
+    "solution": "blue and white"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_72.jpg"
+    ],
+    "doc_id": "visual_probe_hard_72",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the letters to the right of NA?",
+    "solution": "KD"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_119.jpg"
+    ],
+    "doc_id": "visual_probe_easy_119",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhich of the two people in blue clothes at the lower right corner of the picture is the baby?",
+    "solution": "The one on the left is a baby."
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_40.jpg"
+    ],
+    "doc_id": "visual_probe_medium_40",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat animal is depicted in the tattoo on the woman's arm?",
+    "solution": "A butterfly."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_1.jpg"
+    ],
+    "doc_id": "visual_probe_hard_1",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the number 27?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_89.jpg"
+    ],
+    "doc_id": "visual_probe_medium_89",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat stall number is written on the address of the billboard?",
+    "solution": "287"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_38.jpg"
+    ],
+    "doc_id": "visual_probe_easy_38",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is on the head of the human statue on the building?",
+    "solution": "Helmet"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_3.jpg"
+    ],
+    "doc_id": "visual_probe_medium_3",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number on the back of the cyclist's clothes?",
+    "solution": "4"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_23.jpg"
+    ],
+    "doc_id": "visual_probe_easy_23",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is written at the bottom of the oil painting on the wall on the right side of the picture?",
+    "solution": "VINTAGE"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_236.jpg"
+    ],
+    "doc_id": "visual_probe_medium_236",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the scarf of the man who is leaning on the pillar and wearing yellow clothes?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_79.jpg"
+    ],
+    "doc_id": "visual_probe_medium_79",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow much is a bottle of chic brand water on the left side of the fourth row?",
+    "solution": "28"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_112.jpg"
+    ],
+    "doc_id": "visual_probe_easy_112",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the lady on the far left holding?",
+    "solution": "camera"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_33.jpg"
+    ],
+    "doc_id": "visual_probe_medium_33",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the words on the truck on the far right？",
+    "solution": "RAUCH"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_72.jpg"
+    ],
+    "doc_id": "visual_probe_easy_72",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the trousers of the child outside the iron net on the left?",
+    "solution": "blue"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_138.jpg"
+    ],
+    "doc_id": "visual_probe_medium_138",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first word in the second to last line on the left of this page",
+    "solution": "not"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_135.jpg"
+    ],
+    "doc_id": "visual_probe_easy_135",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs there anyone on the cabin at the highest part of the Ferris wheel?",
+    "solution": "Yes"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_48.jpg"
+    ],
+    "doc_id": "visual_probe_easy_48",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the logo on the left glove of the person riding a white horse?",
+    "solution": "Red with white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_10.jpg"
+    ],
+    "doc_id": "visual_probe_medium_10",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many solar panels are there?",
+    "solution": "eight"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_151.jpg"
+    ],
+    "doc_id": "visual_probe_medium_151",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the word \"MILK\"?",
+    "solution": "red"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_136.jpg"
+    ],
+    "doc_id": "visual_probe_easy_136",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shape of the water heater on the roof of the third house?",
+    "solution": "cylindrical"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_125.jpg"
+    ],
+    "doc_id": "visual_probe_easy_125",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the tricycle on the road?",
+    "solution": "blue"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_4.jpg"
+    ],
+    "doc_id": "visual_probe_easy_4",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat's the promotion at the store on the far right？",
+    "solution": "65% off some clothing items."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_54.jpg"
+    ],
+    "doc_id": "visual_probe_hard_54",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the text to the right of the text BEER?",
+    "solution": "PARK"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_184.jpg"
+    ],
+    "doc_id": "visual_probe_medium_184",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the lampshade of the street lamp outside the wall?",
+    "solution": "black"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_9.jpg"
+    ],
+    "doc_id": "visual_probe_hard_9",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nOn which hand does the woman wearing sunglasses wear a watch?",
+    "solution": "left."
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_208.jpg"
+    ],
+    "doc_id": "visual_probe_medium_208",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first English word in the lower left corner of the white sign in the upper right corner of the picture?",
+    "solution": "new"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_39.jpg"
+    ],
+    "doc_id": "visual_probe_easy_39",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the words on the billboard at the lower left of the sculpture?",
+    "solution": "red"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_32.jpg"
+    ],
+    "doc_id": "visual_probe_hard_32",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color shoes does the person wearing a  scarf wear?",
+    "solution": "White"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_102.jpg"
+    ],
+    "doc_id": "visual_probe_easy_102",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the house on the left side of the road in front of or behind the tree？",
+    "solution": "behind the tree"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_133.jpg"
+    ],
+    "doc_id": "visual_probe_easy_133",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many colors are there on the national flag next to the building on the right?",
+    "solution": "three"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_115.jpg"
+    ],
+    "doc_id": "visual_probe_medium_115",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the word on the nearest white container on the right of the yellow container crane in the middle?",
+    "solution": "MAERSK"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_109.jpg"
+    ],
+    "doc_id": "visual_probe_easy_109",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the hand of the tallest statue of a human placed completely on the chest, or is only one hand placed on the chest?",
+    "solution": "Only one"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_188.jpg"
+    ],
+    "doc_id": "visual_probe_medium_188",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the second label on the top of the left shelf from left to right?",
+    "solution": "C42-03"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_125.jpg"
+    ],
+    "doc_id": "visual_probe_medium_125",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person in the light yellow shirt at the lower left corner of the picture a man or a woman?",
+    "solution": "A man."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_90.jpg"
+    ],
+    "doc_id": "visual_probe_hard_90",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhich arm is the person in a blue hat raising?",
+    "solution": "right arm"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_65.jpg"
+    ],
+    "doc_id": "visual_probe_easy_65",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs it a bird or a plane flying in the sky?",
+    "solution": "a plane"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_183.jpg"
+    ],
+    "doc_id": "visual_probe_medium_183",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the word on the left side of the moon sign on the tall building on the left side of the picture？",
+    "solution": "HOME"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_64.jpg"
+    ],
+    "doc_id": "visual_probe_medium_64",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat kind of car is parked in front of the red truck?",
+    "solution": "pick-up truck"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_96.jpg"
+    ],
+    "doc_id": "visual_probe_easy_96",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person wearing blue clothes and carrying a black backpack standing next to the fence on the right leaning their head to the left or right?",
+    "solution": "right"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_84.jpg"
+    ],
+    "doc_id": "visual_probe_medium_84",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person in the second to last photo on the right showing his left or right face？",
+    "solution": "left face"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_31.jpg"
+    ],
+    "doc_id": "visual_probe_medium_31",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first word in the green square on the side of the building in the middle of the picture?",
+    "solution": "FRIDERICO"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_102.jpg"
+    ],
+    "doc_id": "visual_probe_medium_102",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the word in the bottom left corner?",
+    "solution": "and"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_18.jpg"
+    ],
+    "doc_id": "visual_probe_hard_18",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number at the lower left of the balloons?",
+    "solution": "43"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_179.jpg"
+    ],
+    "doc_id": "visual_probe_medium_179",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shape of the yellow pattern on the blue flag?",
+    "solution": "five-pointed star"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_12.jpg"
+    ],
+    "doc_id": "visual_probe_easy_12",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the ankle band on the feet of the seventh person in the dark blue checked robe from the left?",
+    "solution": "yellow"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_137.jpg"
+    ],
+    "doc_id": "visual_probe_medium_137",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the object lying alone on the first foam board?",
+    "solution": "longan seed"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_261.jpg"
+    ],
+    "doc_id": "visual_probe_medium_261",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many red cars are there traveling from the lower left to the upper right in the middle section of the bridge?",
+    "solution": "One."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_98.jpg"
+    ],
+    "doc_id": "visual_probe_easy_98",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the product in the card above the middle shelf?",
+    "solution": "yellow"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_121.jpg"
+    ],
+    "doc_id": "visual_probe_easy_121",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shape of the clock hand tip below \"world\" on the right side of the picture?",
+    "solution": "round shape"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_148.jpg"
+    ],
+    "doc_id": "visual_probe_medium_148",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many 9s are there on the wall?",
+    "solution": "4"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_118.jpg"
+    ],
+    "doc_id": "visual_probe_medium_118",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the man pushing the stroller on the fourth floor standing or walking?",
+    "solution": "walking"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_141.jpg"
+    ],
+    "doc_id": "visual_probe_easy_141",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the handwriting below the red mark on the sign with a brown background at the middle corner?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_192.jpg"
+    ],
+    "doc_id": "visual_probe_medium_192",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat's written on the Aunt left chest?",
+    "solution": "M·5"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_158.jpg"
+    ],
+    "doc_id": "visual_probe_medium_158",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the man in the blue shirt doing on the left side of the river?",
+    "solution": "Cycling"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_132.jpg"
+    ],
+    "doc_id": "visual_probe_easy_132",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person to the left of the white car parked by the roadside a man or a woman?",
+    "solution": "a man"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_96.jpg"
+    ],
+    "doc_id": "visual_probe_hard_96",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the shorts of the person wearing the blue cap?",
+    "solution": "blue"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_60.jpg"
+    ],
+    "doc_id": "visual_probe_medium_60",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat was written on the ship directly beneath the clock tower?",
+    "solution": "CITY CRUISES"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_130.jpg"
+    ],
+    "doc_id": "visual_probe_medium_130",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first line of English on the white card in the middle?",
+    "solution": "Acetylene Room"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_189.jpg"
+    ],
+    "doc_id": "visual_probe_medium_189",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat style is the hat worn by the man sitting fishing by the lake?",
+    "solution": "bucket hat"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_130.jpg"
+    ],
+    "doc_id": "visual_probe_easy_130",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the second bucket from the left on the balcony?",
+    "solution": "green"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_88.jpg"
+    ],
+    "doc_id": "visual_probe_easy_88",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the second person from the right in the image holding?",
+    "solution": "Mobile phone"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_45.jpg"
+    ],
+    "doc_id": "visual_probe_medium_45",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is written on the left side of the front edge of the parasol with the blue anchor design?",
+    "solution": "ANCORA"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_105.jpg"
+    ],
+    "doc_id": "visual_probe_medium_105",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the name after \"photo\" in the lower right corner of the title of the picture above?",
+    "solution": "ALAN BECKER"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_112.jpg"
+    ],
+    "doc_id": "visual_probe_medium_112",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the English word on the pink sign on the right side of the black partition?",
+    "solution": "Hello Kitty"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_107.jpg"
+    ],
+    "doc_id": "visual_probe_easy_107",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nAre the two people at the door facing each other back to back or face to face?",
+    "solution": "face to face"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_29.jpg"
+    ],
+    "doc_id": "visual_probe_medium_29",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first line of English on the blue road sign in the bottom right corner of the picture?",
+    "solution": "TAKE YOUR SHOES OFF"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_25.jpg"
+    ],
+    "doc_id": "visual_probe_easy_25",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shelf number in activity area B?",
+    "solution": "0002"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_20.jpg"
+    ],
+    "doc_id": "visual_probe_medium_20",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the color of the backpack worn by the person riding the motorcycle to the right of the bus?",
+    "solution": "brown"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_57.jpg"
+    ],
+    "doc_id": "visual_probe_easy_57",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nAre the two people sitting under the tree in the middle men or women?",
+    "solution": "men"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_95.jpg"
+    ],
+    "doc_id": "visual_probe_medium_95",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the house number under the tree on the left side of the picture?",
+    "solution": "735-A"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_41.jpg"
+    ],
+    "doc_id": "visual_probe_easy_41",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat letter is opposite S on the top left of the building?",
+    "solution": "N"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_95.jpg"
+    ],
+    "doc_id": "visual_probe_hard_95",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is written on the bow of the red-bottomed boat",
+    "solution": "S"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_165.jpg"
+    ],
+    "doc_id": "visual_probe_medium_165",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat's under the black bag on the back left",
+    "solution": "shoes"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_103.jpg"
+    ],
+    "doc_id": "visual_probe_medium_103",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nwhat is written on the yellow bag?",
+    "solution": "AKADI"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_169.jpg"
+    ],
+    "doc_id": "visual_probe_medium_169",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the color of the umbrella held by the person behind the white car?",
+    "solution": "pink"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_17.jpg"
+    ],
+    "doc_id": "visual_probe_medium_17",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person in blue facing or backing to the shooting perspective?",
+    "solution": "Backing to us the shooting perspective"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_39.jpg"
+    ],
+    "doc_id": "visual_probe_hard_39",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many letters are there under the number 10831?",
+    "solution": "eight"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_82.jpg"
+    ],
+    "doc_id": "visual_probe_medium_82",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many pedestrians are there on the street?",
+    "solution": "three"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_244.jpg"
+    ],
+    "doc_id": "visual_probe_medium_244",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is written in white text on the first row of the black board on the left?",
+    "solution": "Eat. Drink. Talk."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_114.jpg"
+    ],
+    "doc_id": "visual_probe_easy_114",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat kind of shoes are placed on the ground on the right side of the picture？",
+    "solution": "slippers"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_108.jpg"
+    ],
+    "doc_id": "visual_probe_easy_108",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the cross on top of the tallest building?",
+    "solution": "red"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_82.jpg"
+    ],
+    "doc_id": "visual_probe_easy_82",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat animal is sitting on the lawn on the lower half of the image？",
+    "solution": "Dogs"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_43.jpg"
+    ],
+    "doc_id": "visual_probe_hard_43",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the text \"OMAN\"?",
+    "solution": "Black."
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_234.jpg"
+    ],
+    "doc_id": "visual_probe_medium_234",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nThe blue window in the middle of the picture is to the right or left of the red window",
+    "solution": "left"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_18.jpg"
+    ],
+    "doc_id": "visual_probe_easy_18",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many floors does the house above the blue house at the bottom have?",
+    "solution": "three"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_139.jpg"
+    ],
+    "doc_id": "visual_probe_easy_139",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the box on the far left of the floor open or closed?",
+    "solution": "open"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_1.jpg"
+    ],
+    "doc_id": "visual_probe_medium_1",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the price on the leftmost label on the third shelf from the bottom?",
+    "solution": "¥ 9.5"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_190.jpg"
+    ],
+    "doc_id": "visual_probe_medium_190",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the last line of the sign on the right?",
+    "solution": "87 B"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_116.jpg"
+    ],
+    "doc_id": "visual_probe_easy_116",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nUnder the three flags in front of the notice board on the right side of the picture,is the person in red on the left or right of the person in white?",
+    "solution": "right"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_14.jpg"
+    ],
+    "doc_id": "visual_probe_medium_14",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the first word of the article on the left?",
+    "solution": "life"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_253.jpg"
+    ],
+    "doc_id": "visual_probe_medium_253",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the socks of the person on the left on the platform?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_72.jpg"
+    ],
+    "doc_id": "visual_probe_medium_72",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat unit comes after 5000 on the label?",
+    "solution": "kg"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_74.jpg"
+    ],
+    "doc_id": "visual_probe_medium_74",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nOn the left side of the picture, how many spheres are there in the leftmost column of spherical objects on the second level?",
+    "solution": "seven"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_5.jpg"
+    ],
+    "doc_id": "visual_probe_medium_5",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shape of the black object at the top of the flagpole?",
+    "solution": "sphere"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_14.jpg"
+    ],
+    "doc_id": "visual_probe_easy_14",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is in the hand of the person in the blue jean jacket in the picture?",
+    "solution": "camera"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_103.jpg"
+    ],
+    "doc_id": "visual_probe_easy_103",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many people's photos are pasted on the wall?",
+    "solution": "two"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_26.jpg"
+    ],
+    "doc_id": "visual_probe_easy_26",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nDoes the man in black clothes in the lower left corner have long or short hair?",
+    "solution": "short hair"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_83.jpg"
+    ],
+    "doc_id": "visual_probe_hard_83",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat type of statue is this?",
+    "solution": "Character statue"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_23.jpg"
+    ],
+    "doc_id": "visual_probe_medium_23",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat kind of animal sculpture is in the tallest building?",
+    "solution": "leopard"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_85.jpg"
+    ],
+    "doc_id": "visual_probe_medium_85",
+    "data_source": "qa_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the quality shown in the upper right corner of the yellow table?",
+    "solution": "one kilogram"
+  }
+]

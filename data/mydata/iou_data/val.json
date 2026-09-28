@@ -1,0 +1,502 @@
+[
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_252.jpg"
+    ],
+    "doc_id": "visual_probe_medium_252",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nThe woman standing in the middle of the bridge dressed in white and drinking water faces left or right\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.383167,0.832000,0.394167,0.882750</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_190.jpg"
+    ],
+    "doc_id": "visual_probe_medium_190",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the last line of the sign on the right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.935735,0.214358,0.963301,0.240741</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_100.jpg"
+    ],
+    "doc_id": "visual_probe_hard_100",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the pattern inside the rounded square?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.306201,0.113301,0.395764,0.177033</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_74.jpg"
+    ],
+    "doc_id": "visual_probe_hard_74",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number below“ 7”?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.312870,0.571734,0.315715,0.576731</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_119.jpg"
+    ],
+    "doc_id": "visual_probe_easy_119",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhich of the two people in blue clothes at the lower right corner of the picture is the baby?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.874333,0.895750,0.893833,0.927500</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_40.jpg"
+    ],
+    "doc_id": "visual_probe_medium_40",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat animal is depicted in the tattoo on the woman's arm?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.864436,0.515444,0.895753,0.610039</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_1.jpg"
+    ],
+    "doc_id": "visual_probe_hard_1",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the number 27?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.912684,0.447794,0.916667,0.450245</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_88.jpg"
+    ],
+    "doc_id": "visual_probe_medium_88",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the bag carried by a girl in a pink down jacket?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.533631,0.652854,0.568268,0.685050</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_38.jpg"
+    ],
+    "doc_id": "visual_probe_easy_38",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is on the head of the human statue on the building?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.332029,0.280528,0.337653,0.341034</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_3.jpg"
+    ],
+    "doc_id": "visual_probe_medium_3",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number on the back of the cyclist's clothes?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.512544,0.843558,0.516345,0.851995</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_23.jpg"
+    ],
+    "doc_id": "visual_probe_easy_23",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is written at the bottom of the oil painting on the wall on the right side of the picture?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.893353,0.243386,1.000000,0.273810</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_241.jpg"
+    ],
+    "doc_id": "visual_probe_medium_241",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the blue characters on the white-backed billboard hanging on the red wall above the middle grass?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.517627,0.465553,0.536021,0.477035</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_78.jpg"
+    ],
+    "doc_id": "visual_probe_medium_78",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many H-shaped utility poles are there in the picture?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.278111,0.251581,0.299320,0.274402</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_112.jpg"
+    ],
+    "doc_id": "visual_probe_easy_112",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the lady on the far left holding?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.269619,0.616554,0.275504,0.628378</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_33.jpg"
+    ],
+    "doc_id": "visual_probe_medium_33",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the words on the truck on the far right？\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.922418,0.723941,0.933696,0.731474</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_72.jpg"
+    ],
+    "doc_id": "visual_probe_easy_72",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the trousers of the child outside the iron net on the left?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.356250,0.063281,0.384896,0.091016</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_140.jpg"
+    ],
+    "doc_id": "visual_probe_medium_140",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color of clothes is the person coming out of the shop on the right wearing?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.533095,0.547578,0.542829,0.572645</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_135.jpg"
+    ],
+    "doc_id": "visual_probe_easy_135",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs there anyone on the cabin at the highest part of the Ferris wheel?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.322319,0.136316,0.347382,0.166352</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_48.jpg"
+    ],
+    "doc_id": "visual_probe_easy_48",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the logo on the left glove of the person riding a white horse?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.713930,0.314983,0.722193,0.327073</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_111.jpg"
+    ],
+    "doc_id": "visual_probe_medium_111",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the yellow English  under the five-pointed star on the left side of the Ferris wheel?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.082814,0.588098,0.136001,0.606809</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_155.jpg"
+    ],
+    "doc_id": "visual_probe_medium_155",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is that tricycle?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.528963,0.703393,0.556345,0.722156</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_136.jpg"
+    ],
+    "doc_id": "visual_probe_easy_136",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the shape of the water heater on the roof of the third house?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.318326,0.069059,0.334481,0.094136</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_125.jpg"
+    ],
+    "doc_id": "visual_probe_easy_125",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the tricycle on the road?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.285333,0.570000,0.300833,0.584750</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_4.jpg"
+    ],
+    "doc_id": "visual_probe_easy_4",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat's the promotion at the store on the far right？\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.816500,0.516000,0.836667,0.531500</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_56.jpg"
+    ],
+    "doc_id": "visual_probe_hard_56",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the hair tie on the lady in the blue top?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.788667,0.517750,0.790167,0.520500</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_188.jpg"
+    ],
+    "doc_id": "visual_probe_medium_188",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the second label on the top of the left shelf from left to right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.058911,0.227069,0.104586,0.260067</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_100.jpg"
+    ],
+    "doc_id": "visual_probe_medium_100",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is English on the warning sign in the lower right corner?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.874041,0.865880,0.895842,0.892825</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_213.jpg"
+    ],
+    "doc_id": "visual_probe_medium_213",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the second car from left to right on the left coastal road in the picture?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.012642,0.591531,0.022902,0.602932</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_39.jpg"
+    ],
+    "doc_id": "visual_probe_easy_39",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color are the words on the billboard at the lower left of the sculpture?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.243084,0.810897,0.253898,0.818439</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_33.jpg"
+    ],
+    "doc_id": "visual_probe_hard_33",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the hat worn by the child in the yellow shirt?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.567500,0.700833,0.575000,0.708333</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_102.jpg"
+    ],
+    "doc_id": "visual_probe_easy_102",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the house on the left side of the road in front of or behind the tree？\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.107613,0.388736,0.175695,0.414011</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_133.jpg"
+    ],
+    "doc_id": "visual_probe_easy_133",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many colors are there on the national flag next to the building on the right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.070345,0.307732,0.239310,0.522886</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_117.jpg"
+    ],
+    "doc_id": "visual_probe_medium_117",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nHow many Chinese characters are there on the banner above the house on the right side?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.762785,0.467689,0.789074,0.481563</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_109.jpg"
+    ],
+    "doc_id": "visual_probe_easy_109",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the hand of the tallest statue of a human placed completely on the chest, or is only one hand placed on the chest?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.494712,0.574519,0.513622,0.643269</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_191.jpg"
+    ],
+    "doc_id": "visual_probe_medium_191",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number on the red container crane on the far right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.933966,0.369161,0.939634,0.376644</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_127.jpg"
+    ],
+    "doc_id": "visual_probe_medium_127",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the poster on the tree?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.523438,0.481049,0.534790,0.493367</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_92.jpg"
+    ],
+    "doc_id": "visual_probe_hard_92",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the color of '2017'?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.300337,0.708586,0.314815,0.729545</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_65.jpg"
+    ],
+    "doc_id": "visual_probe_easy_65",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs it a bird or a plane flying in the sky?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.485741,0.197199,0.501497,0.212605</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_187.jpg"
+    ],
+    "doc_id": "visual_probe_medium_187",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is there on the door of the house on the farthest right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.824000,0.578250,0.830000,0.587500</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_63.jpg"
+    ],
+    "doc_id": "visual_probe_medium_63",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the letters on the relief sculpture above the middle of the door under the flag ?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.477319,0.693831,0.482735,0.699162</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_96.jpg"
+    ],
+    "doc_id": "visual_probe_easy_96",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the person wearing blue clothes and carrying a black backpack standing next to the fence on the right leaning their head to the left or right?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.772781,0.841332,0.781585,0.874642</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_83.jpg"
+    ],
+    "doc_id": "visual_probe_medium_83",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the four letters vertically on the left side of the license plate?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.356994,0.596294,0.386221,0.604123</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_38.jpg"
+    ],
+    "doc_id": "visual_probe_medium_38",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the animal standing at the top of the picture?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.601500,0.011585,0.627360,0.031237</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_104.jpg"
+    ],
+    "doc_id": "visual_probe_medium_104",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the coat that the person standing on the left of the person wearing purple clothes in the picture is wearing?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.914585,0.401773,0.924309,0.412639</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_18.jpg"
+    ],
+    "doc_id": "visual_probe_hard_18",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat is the number at the lower left of the balloons?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.053048,0.956308,0.057292,0.962963</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_182.jpg"
+    ],
+    "doc_id": "visual_probe_medium_182",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat does the red sign affixed to the second silver case from the top say in English?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.688750,0.263833,0.739500,0.274833</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_12.jpg"
+    ],
+    "doc_id": "visual_probe_easy_12",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the ankle band on the feet of the seventh person in the dark blue checked robe from the left?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.728741,0.916927,0.755952,0.932292</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_13.jpg"
+    ],
+    "doc_id": "visual_probe_medium_13",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nIs the cashier wearing a suit vest standing or sitting?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.332602,0.522204,0.362208,0.656524</bbox>"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_26.jpg"
+    ],
+    "doc_id": "visual_probe_medium_26",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat are the letters on the rightmost wall of the second floor?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.991369,0.511607,1.000000,0.520089</bbox>"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_98.jpg"
+    ],
+    "doc_id": "visual_probe_easy_98",
+    "data_source": "iou_data",
+    "extra_info": {},
+    "problem": "<image>\nWhat color is the product in the card above the middle shelf?\n\nTASK: Bounding-box localization ONLY (do NOT answer the question).\nOutput EXACTLY ONE tight bounding box for the TARGET object.\n\nTARGET object definition:\n- The TARGET is the single object/region that directly contains the information needed to answer the question.\n- If multiple objects are mentioned, follow the Primary object rule.\n\nPrimary object rule (when multiple objects are mentioned):\n- If the question asks an attribute of X (color/text/type/shape/state), TARGET = X.\n- If the question is a relation 'X ... Y' (above/below/left/right/near), TARGET = X (the first mentioned object).\n- If the question is 'What is written on X?', TARGET = X (the smallest text-bearing region).\n- Do NOT box the whole scene or include unrelated background.\n\nTightness requirements:\n- The box must be as tight as possible with minimal background.\n- All coordinates of the bbox must be written with at least 4 decimal places.\n- Large boxes that include multiple objects or most of the image will be not very good.\n\nOutput format strictly:\n<answer><bbox>x1,y1,x2,y2</bbox></answer>\n\nRules:\n- Output ONE <bbox> only.\n- Coordinates normalized to [0,1], (x1,y1)=top-left, (x2,y2)=bottom-right.\n",
+    "solution": "<bbox>0.399643,0.085000,0.457500,0.114107</bbox>"
+  }
+]

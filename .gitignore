@@ -1,0 +1,12 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.private/
+.env
+.env.*
+!.env.example
+outputs/
+models/base/
+models/checkpoints/

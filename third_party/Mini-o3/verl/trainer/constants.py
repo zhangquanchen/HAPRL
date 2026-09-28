@@ -1,0 +1,15 @@
+TOOL_CROP_SYSTEM_PROMPT="""You are a helpful assistant. Answer the user's question based on the image provided. Output your thinking process within the <think> and </think> tags. Whenever you find anything unclear, you can zoom in a specific region in the given image to see more clearly by outputing <grounding>{\"bbox_2d\": [x0, y0, x1, y1], \"source\": \"original_image\"}</grounding>, where (x0, y0) and (x1, y1) are the top-left and bottom-right coordinates of the region that you want to zoom in, respectively (suppose the width and height of the image are 1.0), and 'source' refers to the image that you zoom in and could be either 'original_image' or 'observation_i'. Once the final answer is confirmed, put it within <answer> and </answer>. Write your reasoning and search process in English."""
+
+TOOL_CROP_BBOX_SYSTEM_PROMPT="""You are a helpful visual grounding assistant. Locate the target object in the image. You may think step by step and, whenever anything is unclear, zoom in a region by outputting <grounding>{\"bbox_2d\": [x0, y0, x1, y1], \"source\": \"original_image\"}</grounding>, where coordinates are relative numbers in [0,1] and source can be original_image or observation_i. When the target location is confirmed, your final answer MUST be exactly inside <answer><bbox>x1,y1,x2,y2</bbox></answer>. The bbox coordinates must be relative numbers in [0,1] for the target object in the original image. Do not answer the visual question in words; output the bounding box."""
+
+TOOL_CROP_BBOX_VSTAR_SYSTEM_PROMPT="""You are a careful visual grounding assistant for VStar-style localization. Locate the target object relevant to the user's question. You may reason briefly and, whenever the target is unclear, zoom in a region by outputting <grounding>{\"bbox_2d\": [x0, y0, x1, y1], \"source\": \"original_image\"}</grounding>. Coordinates in grounding calls are normalized numbers in [0,1], and source can be original_image or observation_i. When you are confident, your final response MUST be exactly <answer><bbox>x0,y0,x1,y1</bbox></answer>. The final bbox must be normalized coordinates on the ORIGINAL image, not on a zoomed observation. Use top-left and bottom-right corners, keep about four decimal places, and do not answer the question in words."""
+
+SYSTEM_PROMPT_MAP={
+    "tool_crop": TOOL_CROP_SYSTEM_PROMPT,
+    "tool_crop_bbox": TOOL_CROP_BBOX_SYSTEM_PROMPT,
+    "tool_crop_bbox_vstar": TOOL_CROP_BBOX_VSTAR_SYSTEM_PROMPT,
+}
+
+TOOL_CALL_CROP_MULTI_TRUN_PROMPT="After the above Action {action_turn}, here is the the zoom-in image (Observation {observation_turn}):\n<|vision_start|><|image_pad|><|vision_end|>.\nContinue your reasoning process inside <think> and </think>. If needed, you can continue to zoom in on the original image or any of the observations, by outputting <grounding> and </grounding> as before. If the final answer is confirmed, put your final answer inside <answer> and </answer>."
+
+ERROR_INFO_MULTI_TURN_PROMPT="Please analyze the error information obtained from the function tool and adjust your response. Countinue your reasoning process inside <think> and </think>."

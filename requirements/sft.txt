@@ -1,0 +1,4 @@
+# Install PyTorch for the target CUDA version first.
+llamafactory==0.9.5
+deepspeed==0.19.1
+flash-attn==2.8.2

@@ -1,0 +1,920 @@
+[
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_54.jpg"
+    ],
+    "doc_id": "visual_probe_easy_54",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 22.7,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the man with the crossbody bag in the lower right corner of the image wearing on his wrist?",
+    "solution": "watch"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_91.jpg"
+    ],
+    "doc_id": "visual_probe_medium_91",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 4.9,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the first word on the left red poster?",
+    "solution": "Nasir"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_187.jpg"
+    ],
+    "doc_id": "visual_probe_medium_187",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 81.2,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is there on the door of the house on the farthest right?",
+    "solution": "couplet"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_100.jpg"
+    ],
+    "doc_id": "visual_probe_hard_100",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 37.73,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the pattern inside the rounded square?",
+    "solution": "blue and white"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_72.jpg"
+    ],
+    "doc_id": "visual_probe_hard_72",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 13.98,
+      "task_evaluation": {
+        "difficulty_score": 0.7,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat are the letters to the right of NA?",
+    "solution": "KD"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_119.jpg"
+    ],
+    "doc_id": "visual_probe_easy_119",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 21.2,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhich of the two people in blue clothes at the lower right corner of the picture is the baby?",
+    "solution": "The one on the left is a baby."
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_40.jpg"
+    ],
+    "doc_id": "visual_probe_medium_40",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 12.94,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat animal is depicted in the tattoo on the woman's arm?",
+    "solution": "A butterfly."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_1.jpg"
+    ],
+    "doc_id": "visual_probe_hard_1",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 55.44,
+      "task_evaluation": {
+        "difficulty_score": 1.0,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the number 27?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_89.jpg"
+    ],
+    "doc_id": "visual_probe_medium_89",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 24.41,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat stall number is written on the address of the billboard?",
+    "solution": "287"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_38.jpg"
+    ],
+    "doc_id": "visual_probe_easy_38",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 14.98,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is on the head of the human statue on the building?",
+    "solution": "Helmet"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_3.jpg"
+    ],
+    "doc_id": "visual_probe_medium_3",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 15.77,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the number on the back of the cyclist's clothes?",
+    "solution": "4"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_23.jpg"
+    ],
+    "doc_id": "visual_probe_easy_23",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 4.22,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is written at the bottom of the oil painting on the wall on the right side of the picture?",
+    "solution": "VINTAGE"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_236.jpg"
+    ],
+    "doc_id": "visual_probe_medium_236",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 284.24,
+      "task_evaluation": {
+        "difficulty_score": 1.0,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the scarf of the man who is leaning on the pillar and wearing yellow clothes?",
+    "solution": "white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_79.jpg"
+    ],
+    "doc_id": "visual_probe_medium_79",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 10.78,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nHow much is a bottle of chic brand water on the left side of the fourth row?",
+    "solution": "28"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_112.jpg"
+    ],
+    "doc_id": "visual_probe_easy_112",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 7.81,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the lady on the far left holding?",
+    "solution": "camera"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_33.jpg"
+    ],
+    "doc_id": "visual_probe_medium_33",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 9.19,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat are the words on the truck on the far right？",
+    "solution": "RAUCH"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_72.jpg"
+    ],
+    "doc_id": "visual_probe_easy_72",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 54.03,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color are the trousers of the child outside the iron net on the left?",
+    "solution": "blue"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_138.jpg"
+    ],
+    "doc_id": "visual_probe_medium_138",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 18.01,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the first word in the second to last line on the left of this page",
+    "solution": "not"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_135.jpg"
+    ],
+    "doc_id": "visual_probe_easy_135",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 57.88,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs there anyone on the cabin at the highest part of the Ferris wheel?",
+    "solution": "Yes"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_48.jpg"
+    ],
+    "doc_id": "visual_probe_easy_48",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 9.9,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the logo on the left glove of the person riding a white horse?",
+    "solution": "Red with white"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_10.jpg"
+    ],
+    "doc_id": "visual_probe_medium_10",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 19.06,
+      "task_evaluation": {
+        "difficulty_score": 0.6,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nHow many solar panels are there?",
+    "solution": "eight"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_151.jpg"
+    ],
+    "doc_id": "visual_probe_medium_151",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 149.47,
+      "task_evaluation": {
+        "difficulty_score": 1.0,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the word \"MILK\"?",
+    "solution": "red"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_136.jpg"
+    ],
+    "doc_id": "visual_probe_easy_136",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 6.92,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the shape of the water heater on the roof of the third house?",
+    "solution": "cylindrical"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_125.jpg"
+    ],
+    "doc_id": "visual_probe_easy_125",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 19.8,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the tricycle on the road?",
+    "solution": "blue"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_4.jpg"
+    ],
+    "doc_id": "visual_probe_easy_4",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 25.59,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat's the promotion at the store on the far right？",
+    "solution": "65% off some clothing items."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_54.jpg"
+    ],
+    "doc_id": "visual_probe_hard_54",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 85.24,
+      "task_evaluation": {
+        "difficulty_score": 0.9,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the text to the right of the text BEER?",
+    "solution": "PARK"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_184.jpg"
+    ],
+    "doc_id": "visual_probe_medium_184",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 11.86,
+      "task_evaluation": {
+        "difficulty_score": 0.6,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the lampshade of the street lamp outside the wall?",
+    "solution": "black"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_9.jpg"
+    ],
+    "doc_id": "visual_probe_hard_9",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 113.22,
+      "task_evaluation": {
+        "difficulty_score": 0.7,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nOn which hand does the woman wearing sunglasses wear a watch?",
+    "solution": "left."
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_208.jpg"
+    ],
+    "doc_id": "visual_probe_medium_208",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 49.2,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the first English word in the lower left corner of the white sign in the upper right corner of the picture?",
+    "solution": "new"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_39.jpg"
+    ],
+    "doc_id": "visual_probe_easy_39",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 18.78,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color are the words on the billboard at the lower left of the sculpture?",
+    "solution": "red"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_32.jpg"
+    ],
+    "doc_id": "visual_probe_hard_32",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 12.76,
+      "task_evaluation": {
+        "difficulty_score": 0.6,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color shoes does the person wearing a  scarf wear?",
+    "solution": "White"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_102.jpg"
+    ],
+    "doc_id": "visual_probe_easy_102",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 6.67,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs the house on the left side of the road in front of or behind the tree？",
+    "solution": "behind the tree"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_133.jpg"
+    ],
+    "doc_id": "visual_probe_easy_133",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 28.46,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nHow many colors are there on the national flag next to the building on the right?",
+    "solution": "three"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_115.jpg"
+    ],
+    "doc_id": "visual_probe_medium_115",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 3.74,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the word on the nearest white container on the right of the yellow container crane in the middle?",
+    "solution": "MAERSK"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_109.jpg"
+    ],
+    "doc_id": "visual_probe_easy_109",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 27.7,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs the hand of the tallest statue of a human placed completely on the chest, or is only one hand placed on the chest?",
+    "solution": "Only one"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_188.jpg"
+    ],
+    "doc_id": "visual_probe_medium_188",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 3.34,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the second label on the top of the left shelf from left to right?",
+    "solution": "C42-03"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_125.jpg"
+    ],
+    "doc_id": "visual_probe_medium_125",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 33.38,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs the person in the light yellow shirt at the lower left corner of the picture a man or a woman?",
+    "solution": "A man."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_90.jpg"
+    ],
+    "doc_id": "visual_probe_hard_90",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 215.08,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 0.0
+      }
+    },
+    "problem": "<image>\nWhich arm is the person in a blue hat raising?",
+    "solution": "right arm"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_65.jpg"
+    ],
+    "doc_id": "visual_probe_easy_65",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 5.84,
+      "task_evaluation": {
+        "difficulty_score": 0.2,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs it a bird or a plane flying in the sky?",
+    "solution": "a plane"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_183.jpg"
+    ],
+    "doc_id": "visual_probe_medium_183",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 46.26,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the word on the left side of the moon sign on the tall building on the left side of the picture？",
+    "solution": "HOME"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_64.jpg"
+    ],
+    "doc_id": "visual_probe_medium_64",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 24.59,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat kind of car is parked in front of the red truck?",
+    "solution": "pick-up truck"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_96.jpg"
+    ],
+    "doc_id": "visual_probe_easy_96",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 11.34,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs the person wearing blue clothes and carrying a black backpack standing next to the fence on the right leaning their head to the left or right?",
+    "solution": "right"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_84.jpg"
+    ],
+    "doc_id": "visual_probe_medium_84",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 16.51,
+      "task_evaluation": {
+        "difficulty_score": 0.5,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nIs the person in the second to last photo on the right showing his left or right face？",
+    "solution": "left face"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_31.jpg"
+    ],
+    "doc_id": "visual_probe_medium_31",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 5.34,
+      "task_evaluation": {
+        "difficulty_score": 0.4,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the first word in the green square on the side of the building in the middle of the picture?",
+    "solution": "FRIDERICO"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_102.jpg"
+    ],
+    "doc_id": "visual_probe_medium_102",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 13.33,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the word in the bottom left corner?",
+    "solution": "and"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Hard_repo/image/visual_probe_hard_18.jpg"
+    ],
+    "doc_id": "visual_probe_hard_18",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 152.64,
+      "task_evaluation": {
+        "difficulty_score": 0.7,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the number at the lower left of the balloons?",
+    "solution": "43"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_179.jpg"
+    ],
+    "doc_id": "visual_probe_medium_179",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 39.46,
+      "task_evaluation": {
+        "difficulty_score": 0.6,
+        "difficulty_level": "medium",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the shape of the yellow pattern on the blue flag?",
+    "solution": "five-pointed star"
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_12.jpg"
+    ],
+    "doc_id": "visual_probe_easy_12",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 46.74,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the ankle band on the feet of the seventh person in the dark blue checked robe from the left?",
+    "solution": "yellow"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_137.jpg"
+    ],
+    "doc_id": "visual_probe_medium_137",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 11.63,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat is the object lying alone on the first foam board?",
+    "solution": "longan seed"
+  },
+  {
+    "images": [
+      "./data/visualprobe_medium/image/visual_probe_medium_261.jpg"
+    ],
+    "doc_id": "visual_probe_medium_261",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 83.14,
+      "task_evaluation": {
+        "difficulty_score": 0.9,
+        "difficulty_level": "hard",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nHow many red cars are there traveling from the lower left to the upper right in the middle section of the bridge?",
+    "solution": "One."
+  },
+  {
+    "images": [
+      "./data/VisualProbe_Easy_repo/image/visual_probe_easy_98.jpg"
+    ],
+    "doc_id": "visual_probe_easy_98",
+    "data_source": "qa_data",
+    "extra_info": {
+      "annotation_time": 54.57,
+      "task_evaluation": {
+        "difficulty_score": 0.3,
+        "difficulty_level": "easy",
+        "is_ambiguous": false,
+        "confidence_score": 1.0
+      }
+    },
+    "problem": "<image>\nWhat color is the product in the card above the middle shelf?",
+    "solution": "yellow"
+  }
+]
